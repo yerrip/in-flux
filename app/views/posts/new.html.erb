@@ -1,0 +1,15 @@
+<h1>New Post</h1>
+
+<!-- here's where our form will go. -->
+
+<%= simple_form_for @post do |f| %>
+
+	<%= f.input :title %>
+	<%= f.input :body %>
+	<%= f.input :image %>
+
+	<%= f.button :submit %>
+
+
+
+	<% end %>

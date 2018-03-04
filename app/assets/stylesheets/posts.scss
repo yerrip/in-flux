@@ -17,7 +17,11 @@ a {
 	}
 }
 
-img {
+.grid img {
 	max-height: 300px;
 	max-width: 300px;
+}
+
+.hero img {
+	max-width: 50%;
 }

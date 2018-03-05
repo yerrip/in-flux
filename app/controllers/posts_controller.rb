@@ -15,7 +15,6 @@ class PostsController < ApplicationController
 	def create
 		@post = Post.new(form_params)
 		@post.save
-		
 		redirect_to root_path
 	end
 

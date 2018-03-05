@@ -16,3 +16,6 @@ module Defekto
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+config.assets.enabled = true
+config.assets.path << Rails.root.join('/app/assets/fonts')

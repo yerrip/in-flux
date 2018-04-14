@@ -20,6 +20,8 @@ $hkgrotesk: HK Grotesk Pro, sans-serif;
   src: url ('/assets/HKGroteskPro-Bold.otf'),
   font-url('/assets/HKGroteskPro-Bold.woff') format('woff'),
   font-url('/assets/HKGroteskPro-Bold.svg') format('svg');
+  font-url('/assets/HKGroteskPro-Bold.ttf') format('truetype');
+
 
 
   font-weight: 700;
@@ -30,6 +32,8 @@ $hkgrotesk: HK Grotesk Pro, sans-serif;
   src: url ('/assets/HKGroteskPro-Regular.otf'),
   font-url('/assets/HKGroteskPro-Regular.woff') format('woff'),
   font-url('/assets/HKGroteskPro-Regular.svg') format('svg');
+    font-url('/assets/HKGroteskPro-Regular.ttf') format('truetype');
+
 
   font-weight: 300;
 }

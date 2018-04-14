@@ -17,13 +17,20 @@ $hkgrotesk: HK Grotesk Pro, sans-serif;
 
 @font-face {
   font-family: "HK Grotesk Pro";
-  src: url ('/assets/HKGroteskPro-Bold.otf');
+  src: url ('/assets/HKGroteskPro-Bold.otf'),
+  font-url('/assets/HKGroteskPro-Bold.woff') format('woff'),
+  font-url('/assets/HKGroteskPro-Bold.svg') format('svg');
+
+
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "HK Gothic";
-  src: url ('/assets/HKGroteskPro-Regular.otf.otf');
+  font-family: "HK Grotesk Pro";
+  src: url ('/assets/HKGroteskPro-Regular.otf'),
+  font-url('/assets/HKGroteskPro-Regular.woff') format('woff'),
+  font-url('/assets/HKGroteskPro-Regular.svg') format('svg');
+
   font-weight: 300;
 }
 
